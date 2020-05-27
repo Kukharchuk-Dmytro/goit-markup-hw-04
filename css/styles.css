@@ -89,12 +89,8 @@ body {
 
 .auth-nav {
   display: flex;
-  margin-left: auto;
+  margin-left: 305px;
   align-items: center;
-}
-
-.auth-nav .item + .item {
-  margin-left: 50px;
 }
 
 .auth-nav .link {
@@ -109,6 +105,9 @@ body {
   padding-top: 32px;
   padding-bottom: 32px;
 }
+.auth-nav .item + .item {
+  margin-left: 50px;
+}
 
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -118,12 +117,13 @@ body {
   display: flex;
   align-items: center;
   margin-right: 10px;
-  margin-left: 305px;
+  margin-left: auto;
   content: '';
   height: 11.2px;
   width: 16px;
   background-image: url(../image/email.svg);
 }
+
 .icon-phone::before {
   display: flex;
   align-items: center;
