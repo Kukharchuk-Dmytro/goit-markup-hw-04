@@ -432,7 +432,6 @@ text-transform: uppercase; */
   height: 44px;
   border-radius: 50%;
   background-color: var(--colore-focus);
-  background-position: center;
 }
 
 .icon-twiter::after {
@@ -625,6 +624,89 @@ text-transform: uppercase; */
 }
 .navigation-button .navigations + .navigations {
   margin-left: 12px;
+}
+.icon-instagramw::after {
+  content: '';
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-image: url(../image/instagram_w.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.icon-instagramw:hover {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--colore-focus);
+}
+
+.icon-twiterw::after {
+  content: '';
+  display: flex;
+  width: 44px;
+  height: 44px;
+  /* background-color: chartreuse;
+  border-radius: 50%; */
+  background-image: url(../image/twitter_w.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.icon-twiterw:hover {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--colore-focus);
+  background-position: center;
+}
+
+.icon-facebookw::after {
+  content: '';
+  display: flex;
+  width: 44px;
+  height: 44px;
+  /* background-color: chartreuse;
+  border-radius: 50%; */
+  background-image: url(../image/facebook_w.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.icon-facebookw:hover {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--colore-focus);
+  background-position: center;
+}
+
+.icon-linkedingw::after {
+  content: '';
+  display: flex;
+  width: 44px;
+  height: 44px;
+  /* background-color: chartreuse;
+  border-radius: 50%; */
+  background-image: url(../image/linkedin_w.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.icon-linkedingw:hover {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--colore-focus);
+  background-position: center;
+}
+.social .links-footer + .links-footer {
+  margin-left: 10px;
 }
 
 /* портфолио */
