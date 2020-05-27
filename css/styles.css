@@ -360,6 +360,9 @@ text-transform: uppercase; */
   width: 270px;
   height: 422px;
   background: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 1px 3px rgba(0, 0, 0, 0.12);
 }
 .list-work .title + .title {
   margin-left: 15px;
@@ -403,16 +406,91 @@ text-transform: uppercase; */
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
-  padding-top: 16px;
-  padding-bottom: 24px;
+  margin-top: 16px;
+  margin-bottom: 24px;
   /* background: grey; */
-  margin-left: 32px;
+}
+.listt .links + .links {
+  margin-left: 10px;
 }
 .team-name {
   margin-top: 30px;
   margin-bottom: 10px;
 }
 
+.icon-instagram::after {
+  content: '';
+  display: flex;
+  width: 44px;
+  height: 44px;
+  background-image: url(../image/instagram.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-instagram:hover {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--colore-focus);
+  background-position: center;
+}
+
+.icon-twiter::after {
+  content: '';
+  display: flex;
+  width: 44px;
+  height: 44px;
+  /* background-color: chartreuse;
+  border-radius: 50%; */
+  background-image: url(../image/Twiter.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-twiter:hover {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--colore-focus);
+  background-position: center;
+}
+
+.icon-facebook::after {
+  content: '';
+  display: flex;
+  width: 44px;
+  height: 44px;
+  /* background-color: chartreuse;
+  border-radius: 50%; */
+  background-image: url(../image/facebook.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-facebook:hover {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--colore-focus);
+  background-position: center;
+}
+
+.icon-linkeding::after {
+  content: '';
+  display: flex;
+  width: 44px;
+  height: 44px;
+  /* background-color: chartreuse;
+  border-radius: 50%; */
+  background-image: url(../image/linkedin.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.icon-linkeding:hover {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: var(--colore-focus);
+  background-position: center;
+}
 /* footer
  */
 
