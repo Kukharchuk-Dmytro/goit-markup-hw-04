@@ -562,18 +562,18 @@ text-transform: uppercase; */
 .social .links-footer + .links-footer {
   margin-left: 10px;
 }
-.link {
+.linkss {
   padding: 12px;
   --color2: white;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-.link:focus,
-.link:hover {
+.linkss:focus,
+.linkss:hover {
   background-color: #2196f3;
   border-radius: 50%;
 }
-.social .link + .link {
+.social .linkss + .linkss {
   margin-left: 10px;
 }
 /* портфолио */
