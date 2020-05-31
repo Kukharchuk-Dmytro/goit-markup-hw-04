@@ -121,7 +121,6 @@ body {
 }
 
 .link-phone {
-  height: 20px;
   width: 15px;
   margin-right: 10px;
   fill: #757575;
@@ -129,7 +128,7 @@ body {
 
 .link:hover,
 .link:focus {
-  --color1: var(--colore-focus);
+  --color4: var(--colore-focus);
 }
 .hero {
   text-align: center;
@@ -392,6 +391,21 @@ text-transform: uppercase; */
   text-decoration: none;
   list-style: none;
 }
+
+.clients {
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.clients:hover,
+.clients:focus {
+  border: 1px solid #2196f3;
+}
+
+.clients:hover,
+.clients:focus {
+  --color3: #2196f3;
+}
+
 .list-client .clients + .clients {
   margin-left: 30px;
 }
@@ -416,7 +430,7 @@ text-transform: uppercase; */
 
 .links:focus,
 .links:hover {
-  --color2: white;
+  --color3: white;
   background-color: #2196f3;
   border-radius: 50%;
 }
@@ -559,7 +573,7 @@ text-transform: uppercase; */
 }
 .linkss {
   padding: 12px;
-  --color2: white;
+  --color3: white;
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
