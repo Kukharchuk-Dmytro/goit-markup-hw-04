@@ -145,6 +145,7 @@ body {
     ),
     url(../image/hero.svg);
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* герой */
@@ -217,6 +218,8 @@ text-transform: uppercase; */
   display: flex;
   align-items: center;
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .items::before {
@@ -391,6 +394,8 @@ text-transform: uppercase; */
 }
 
 .clients {
+  width: 170px;
+  height: 90px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
@@ -554,10 +559,10 @@ text-transform: uppercase; */
   align-items: baseline;
 }
 .blocklink {
-  margin-left: 110px;
+  margin-left: 69px;
 }
 .na {
-  margin-left: 110px;
+  margin-left: 94px;
 }
 .social .adresi + .adresi {
   margin-left: 11px;
